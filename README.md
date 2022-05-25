@@ -14,11 +14,19 @@
 
 
 int main(){
-    int t; 
-    scanf("%d",&t);
-    for(int a0 = 0; a0 < t; a0++){
-        long n; 
-        scanf("%ld",&n);
-    }
-    return 0;
+
+int t; 
+
+scanf("%d",&t);
+
+for(int a0 = 0; a0 < t; a0++){
+
+long n; 
+
+scanf("%ld",&n);
+
+}
+
+return 0;
+
 }
