@@ -1,3 +1,4 @@
+
 #include <math.h>
 
 #include <stdio.h>
@@ -12,7 +13,6 @@
 
 #include <stdbool.h>
 
-
 int main(){
 
 int t; 
@@ -25,7 +25,25 @@ long n;
 
 scanf("%ld",&n);
 
+long a=2,b=8,t=0,s=0;
+
+while(a<n){
+
+s += a;
+
+t = b;
+
+b = 4*b+a;
+
+a = t;
+
 }
+
+printf("%ld\n",s);
+
+}
+
+
 
 return 0;
 
